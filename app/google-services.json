@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "398435575848",
+    "firebase_url": "https://student-studi-app-default-rtdb.firebaseio.com",
+    "project_id": "student-studi-app",
+    "storage_bucket": "student-studi-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398435575848:android:1a9a8c0268258749f46d1d",
+        "android_client_info": {
+          "package_name": "com.example.niceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398435575848-soh7veuii5o0vhhaqvho8aalf7v441qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.niceapp",
+            "certificate_hash": "ae54b9fcb30f839d235115a07379be71dcb584b4"
+          }
+        },
+        {
+          "client_id": "398435575848-a2d2mg7qmjmtr419oh10k6mupdn4g2er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvDbwXXRQ1VP9HOl1GrIT9S5MU477v10c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398435575848-2lfkpru4i42dmqskqrmj3jri7i2itcno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

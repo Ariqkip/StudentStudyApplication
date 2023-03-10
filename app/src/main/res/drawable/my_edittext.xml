@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<styles xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:name="boxBackgroundMode"
+        tools:ignore="ExtraText">filled</item>
+    <item android:name="boxBackgroundColor">@color/mtrl_filled_background_color</item>
+    <item android:name="endIconTint">@color/mtrl_filled_icon_tint</item>
+    <item android:name="startIconTint">@color/mtrl_filled_icon_tint</item>
+    <item android:name="boxCollapsedPaddingTop">12dp</item>
+    <item android:name="boxStrokeColor">@color/mtrl_filled_stroke_color</item>
+    <item android:name="shapeAppearanceOverlay">
+        @style/ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox
+    </item>
+</styles>
