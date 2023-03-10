@@ -9,11 +9,11 @@ apply plugin: 'com.google.firebase.crashlytics'
 //apply plugin: 'com.google.firebase.crashlytics'
 
 android {
-    namespace 'com.example.niceapp'
+    namespace 'dev.ariq.niceapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.niceapp"
+        applicationId "dev.ariq.niceapp"
         minSdk 21
         targetSdk 33
         versionCode 1
