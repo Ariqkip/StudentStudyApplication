@@ -14,7 +14,8 @@ object AppPreferences {
     private val STUDENT_ID = Pair("studentID", "")
     private val STUDENT_EMAIL_ID = Pair("studentEmailID", "")
 
-    const val AUTH_KEY_FCM = "BJ3CBt-zlfp9HvQRiAGHqBqd_9SNxoVp8O_D95LkzB7N7rUpJB5NgqSVoXZ2ngOx6kQMTTfRDRdv8382jtpGZk0"
+    const val AUTH_KEY_FCM = "AAAAXMScaCg:APA91bE1ghlNY8etj1VtX0ENBFjpdtKBZIqP3zM8hUB5o63UL9j" +
+            "9A77Tbro0TMnEGAAvCvIU3W8kcnBOgkcdKrbIFz1T0f8rcOgaNTH__Rd99ZyaULVFmYfk2t7ud73sMPNV2KsbnWIf"
 
 
     fun init(context: Context) {

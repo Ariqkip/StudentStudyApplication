@@ -15,11 +15,11 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.firebase.database.FirebaseDatabase
+import dev.ariq.niceapp.R
 
 import dev.ariq.niceapp.auth.AuthenticationActivity
 import dev.ariq.niceapp.modals.NotificationData
 import dev.ariq.niceapp.utils.AppPreferences
-import dev.eric.niceapp.R
 import kotlinx.android.synthetic.main.activity_class_notes.*
 import kotlinx.android.synthetic.main.activity_reminder.*
 import kotlinx.android.synthetic.main.activity_reminder.closeButton
@@ -277,7 +277,7 @@ class ReminderActivity : AppCompatActivity() {
 
                     val data = JSONObject()
                     data.put("title",  title + " from "+AppPreferences.studentName )
-                    data.put("message", description + " Related to " + "type")
+                    data.put("message", description + " Related to " + "others")
 
                     // Can be used for Scheduled Notifications
 /*
@@ -315,7 +315,7 @@ class ReminderActivity : AppCompatActivity() {
                             Response.Listener<JSONObject?> {
                             override fun onResponse(response: JSONObject?) {
 
-                                val myRef = FirebaseDatabase.getInstance().getReference(AppPreferences.studentID).child("notifications_data")
+                                val myRef = FirebaseDatabase.getInstance().getReference("UOE_MATCOMP_4_C").child("notifications_data")
                                 myRef.push().setValue(NotificationData(title,description, AppPreferences.studentName))
 
                                 val successDialog = Dialog(this@ReminderActivity)

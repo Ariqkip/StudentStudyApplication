@@ -10,11 +10,11 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.messaging.FirebaseMessaging
+import dev.ariq.niceapp.R
 import dev.ariq.niceapp.general.HomeActivity
 import dev.ariq.niceapp.modals.StudentData
 
 import dev.ariq.niceapp.utils.AppPreferences
-import dev.eric.niceapp.R
 import kotlinx.android.synthetic.main.activity_student_details.*
 import java.util.regex.Matcher
 import java.util.regex.Pattern

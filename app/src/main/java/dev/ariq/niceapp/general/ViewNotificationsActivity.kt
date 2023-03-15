@@ -10,10 +10,11 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.example.niceapp.R
-import com.example.niceapp.adapters.MissedNotificationsAdapter
-import com.example.niceapp.modals.NotificationData
-import com.example.niceapp.utils.AppPreferences
+
+import dev.ariq.niceapp.R
+import dev.ariq.niceapp.adapters.MissedNotificationsAdapter
+import dev.ariq.niceapp.modals.NotificationData
+import dev.ariq.niceapp.utils.AppPreferences
 import kotlinx.android.synthetic.main.activity_view_notifications.*
 
 class ViewNotificationsActivity : AppCompatActivity() {

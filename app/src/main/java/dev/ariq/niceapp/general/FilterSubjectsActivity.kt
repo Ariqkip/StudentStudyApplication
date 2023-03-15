@@ -3,7 +3,7 @@ package dev.ariq.niceapp.general
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.niceapp.R
+import dev.ariq.niceapp.R
 import kotlinx.android.synthetic.main.activity_filter_subjects.*
 
 class FilterSubjectsActivity : AppCompatActivity() {

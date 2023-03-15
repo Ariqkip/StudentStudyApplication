@@ -21,12 +21,12 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.messaging.FirebaseMessaging
+import dev.ariq.niceapp.R
 import dev.ariq.niceapp.general.HomeActivity
 
 import dev.ariq.niceapp.modals.StudentData
 import dev.ariq.niceapp.onboarding.GettingStartedActivity
 import dev.ariq.niceapp.utils.AppPreferences
-import dev.eric.niceapp.R
 import kotlinx.android.synthetic.main.activity_authentication.*
 import kotlinx.android.synthetic.main.forgot_password_dialog.*
 import kotlinx.android.synthetic.main.progress_bar.*

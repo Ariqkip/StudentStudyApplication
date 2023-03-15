@@ -9,8 +9,9 @@ import android.media.RingtoneManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import com.example.niceapp.R
-import com.example.niceapp.general.HomeActivity
+
+import dev.ariq.niceapp.R
+import dev.ariq.niceapp.general.HomeActivity
 import java.util.*
 import kotlin.random.Random
 

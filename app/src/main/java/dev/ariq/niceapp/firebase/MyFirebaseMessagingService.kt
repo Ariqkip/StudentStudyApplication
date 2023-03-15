@@ -16,10 +16,10 @@ import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
+import dev.ariq.niceapp.R
 
 import dev.ariq.niceapp.general.ClassNotesActivity
 import dev.ariq.niceapp.general.ViewNotificationsActivity
-import dev.eric.niceapp.R
 import java.util.*
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {

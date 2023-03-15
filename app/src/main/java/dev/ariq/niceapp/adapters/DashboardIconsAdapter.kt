@@ -9,14 +9,13 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
-import com.example.niceapp.general.*
+import dev.ariq.niceapp.R
 import dev.ariq.niceapp.general.ClassMatesActivity
 import dev.ariq.niceapp.general.ClassNotesActivity
 import dev.ariq.niceapp.general.ReminderActivity
 import dev.ariq.niceapp.general.StudentProfileActivity
 
 import dev.ariq.niceapp.modals.DashboardIconData
-import dev.eric.niceapp.R
 
 
 class DashboardIconsAdapter(private val iconsList: ArrayList<DashboardIconData>):

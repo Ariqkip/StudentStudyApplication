@@ -20,9 +20,10 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
 import com.google.firebase.storage.UploadTask
-import com.example.niceapp.R
-import com.example.niceapp.modals.FileUploadData
-import com.example.niceapp.utils.AppPreferences
+
+import dev.ariq.niceapp.R
+import dev.ariq.niceapp.modals.FileUploadData
+import dev.ariq.niceapp.utils.AppPreferences
 import kotlinx.android.synthetic.main.activity_upload_files.*
 import org.json.JSONObject
 import java.text.SimpleDateFormat

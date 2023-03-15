@@ -6,21 +6,21 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import dev.ariq.niceapp.R
 
 import dev.ariq.niceapp.modals.StudentData
-import dev.eric.niceapp.R
 import kotlinx.android.synthetic.main.activity_student_profile.*
 import kotlinx.android.synthetic.main.classmate_view_card.view.*
 
 class ClassMatesAdapter(val context: Context, private val classMatesList: ArrayList<StudentData>):
     RecyclerView.Adapter<dev.ariq.niceapp.adapters.ClassMatesAdapter.ViewHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): _root_ide_package_.dev.ariq.niceapp.adapters.ClassMatesAdapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.classmate_view_card, parent, false)
-        return _root_ide_package_.dev.ariq.niceapp.adapters.ClassMatesAdapter.ViewHolder(v)
+        return ViewHolder(v)
     }
 
-    override fun onBindViewHolder(holder: _root_ide_package_.dev.ariq.niceapp.adapters.ClassMatesAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bindItems(classMatesList[position])
     }
 

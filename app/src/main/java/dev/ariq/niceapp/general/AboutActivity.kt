@@ -14,10 +14,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.firebase.database.FirebaseDatabase
+import dev.ariq.niceapp.R
 import dev.ariq.niceapp.auth.AuthenticationActivity
 import dev.ariq.niceapp.modals.FeedbackData
 import dev.ariq.niceapp.utils.AppPreferences
-import dev.eric.niceapp.R
 import kotlinx.android.synthetic.main.activity_about.*
 import kotlinx.android.synthetic.main.activity_about.adView
 import kotlinx.android.synthetic.main.activity_about.bottomnav

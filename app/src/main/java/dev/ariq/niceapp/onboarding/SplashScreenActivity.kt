@@ -4,10 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import dev.ariq.niceapp.R
 import dev.ariq.niceapp.general.HomeActivity
 
 import dev.ariq.niceapp.utils.AppPreferences
-import dev.eric.niceapp.R
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 
 class SplashScreenActivity : AppCompatActivity() {

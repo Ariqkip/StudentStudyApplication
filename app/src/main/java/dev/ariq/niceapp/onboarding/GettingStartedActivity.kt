@@ -4,9 +4,9 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import dev.ariq.niceapp.R
 
 import dev.ariq.niceapp.auth.AuthenticationActivity
-import dev.eric.niceapp.R
 import kotlinx.android.synthetic.main.activity_getting_started.*
 
 class GettingStartedActivity : AppCompatActivity() {

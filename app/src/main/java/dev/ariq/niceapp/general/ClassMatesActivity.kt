@@ -17,11 +17,13 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.example.niceapp.R
-import com.example.niceapp.auth.AuthenticationActivity
-import com.example.niceapp.modals.StudentData
-import com.example.niceapp.utils.AppPreferences
+
 import com.google.android.material.appbar.MaterialToolbar
+import dev.ariq.niceapp.R
+import dev.ariq.niceapp.adapters.ClassMatesAdapter
+import dev.ariq.niceapp.auth.AuthenticationActivity
+import dev.ariq.niceapp.modals.StudentData
+import dev.ariq.niceapp.utils.AppPreferences
 import kotlinx.android.synthetic.main.activity_class_mates.*
 import kotlinx.android.synthetic.main.activity_class_notes.closeButton
 
@@ -269,7 +271,7 @@ class ClassMatesActivity : AppCompatActivity() {
                         }
                     }
                     val classMatesAdapter =
-                        _root_ide_package_.dev.ariq.niceapp.adapters.ClassMatesAdapter(
+                        ClassMatesAdapter(
                             baseContext,
                             classMatesList
                         )

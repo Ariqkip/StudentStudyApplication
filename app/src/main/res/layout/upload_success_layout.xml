@@ -26,25 +26,24 @@
             app:lottie_loop="false"/>
 
         <TextView
+            android:id="@+id/dialogText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:id="@+id/dialogText"
+            android:layout_margin="15dp"
             android:gravity="center"
-            android:textColor="@color/colorPrimaryDark"
             android:text="@string/file_published_successfully_to_your_class_group"
+            android:textColor="#8BC34A"
             android:textSize="17sp"
-            android:layout_margin="15dp" />
+            android:textStyle="normal" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_to_home"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Back to Home"
-            android:id="@+id/back_to_home"
             android:layout_marginBottom="10dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:textColor="@color/colorPrimaryDark"
-            />
+            android:text="Back to Home"
+            android:textColor="#8BC34A" />
 
 
 

@@ -13,13 +13,14 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.example.niceapp.adapters.DashboardIconsAdapter
-import com.example.niceapp.adapters.NewsAdapter
-import com.example.niceapp.auth.AuthenticationActivity
-import com.example.niceapp.modals.DashboardIconData
-import com.example.niceapp.modals.NewsData
-import com.example.niceapp.utils.AppPreferences
+import dev.ariq.niceapp.R
 import com.google.android.material.appbar.MaterialToolbar
+import dev.ariq.niceapp.adapters.DashboardIconsAdapter
+import dev.ariq.niceapp.adapters.NewsAdapter
+import dev.ariq.niceapp.auth.AuthenticationActivity
+import dev.ariq.niceapp.modals.DashboardIconData
+import dev.ariq.niceapp.modals.NewsData
+import dev.ariq.niceapp.utils.AppPreferences
 import kotlinx.android.synthetic.main.activity_home.*
 
 
